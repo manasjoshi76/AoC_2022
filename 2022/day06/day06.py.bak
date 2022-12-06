@@ -23,7 +23,7 @@ def part2(inpt):
         stream_ = inpt[i:i+14]
         #print(stream_)
         if len(set(stream_)) == len(stream_):
-            return i+14
+            return i+4
     return -1
 
 print(f'EXAMPLE\nPart1: {part1(inpt_example)}\nPart2: {part2(inpt_example)}')
